@@ -13,10 +13,10 @@ paginate = 5
   themeColor = "blue"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 4
 
   # show selector to switch language
-  showLanguageSelector = false
+  showLanguageSelector = true
 
   # set theme to full screen width
   fullWidthTheme = false
@@ -54,7 +54,7 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "Katie Taylor"
-    subtitle = "Student, software developer, language-lover, dancer"
+    subtitle = "Personal website of a student, software developer, language-lover, and dancer"
     owner = "Katie Taylor"
     keywords = ""
     copyright = ""
@@ -72,22 +72,23 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "hello-world"
-        name = "About Me"
-        url = "/hello-world"
-      [[languages.en.menu.main]]
+        weight = 1
         identifier = "contact-me"
         name = "Contact Me"
-        url = "/contact-me"
+        url = "https://forms.gle/2xvN97e12byjD1di8"
+        # url = "/contact-me"
       [[languages.en.menu.main]]
+        weight = 2
         identifier = "linkedin"
         name = "LinkedIn"
         url = "https://www.linkedin.com/in/kmxtaylor/"
       [[languages.en.menu.main]]
+        weight = 3
         identifier = "github"
         name = "GitHub"
         url = "https://github.com/kmxtaylor"
       [[languages.en.menu.main]]
+        weight = 4
         identifier = "resume"
         name = "Resume"
         url = "https://drive.google.com/file/d/1DjwfVl3CO_pM7eBLBx02M2e_TZPtvYYY/view?usp=sharing"
