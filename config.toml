@@ -1,5 +1,5 @@
 baseURL = "https://kmxtaylor.github.io/"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 theme = "terminal"
 
 paginate = 5
@@ -53,6 +53,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
+    weight = 1
     title = "Katie Taylor"
     subtitle = "Personal website of a student, software developer, language-lover, and dancer"
     owner = "Katie Taylor"
@@ -65,6 +66,7 @@ paginate = 5
     olderPosts = "Older posts"
     missingContentMessage = "Page not found..."
     missingBackButtonLabel = "Back to home page"
+    footerText = "Theme based on Terminal by"
 
     [languages.en.params.logo]
       logoText = "Katie Taylor"
@@ -91,4 +93,48 @@ paginate = 5
         weight = 4
         identifier = "resume"
         name = "Resume"
+        url = "https://drive.google.com/file/d/1DjwfVl3CO_pM7eBLBx02M2e_TZPtvYYY/view?usp=sharing"
+
+  [languages.es]
+    languageName = "Español"
+    weight = 2
+    title = "Katie Taylor"
+    subtitle = "Sitio web personal de una estudiante, programadora, políglota, y bailarina"
+    owner = "Katie Taylor"
+    keywords = ""
+    copyright = ""
+    menuMore = "Ver más"
+    readMore = "Ver menos"
+    readOtherPosts = "Leer más publicaciones"
+    newerPosts = "Publicaciones más recientes"
+    olderPosts = "Publicaciones más viejos"
+    missingContentMessage = "No podría encontrarlo..."
+    missingBackButtonLabel = "Regresar a la página de inicio"
+    footerText = "Tema basado en Terminal por"
+
+    [languages.es.params.logo]
+      logoText = "Katie Taylor"
+      logoHomeLink = "/"
+
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        weight = 1
+        identifier = "contact-me"
+        name = "Contacto"
+        url = "https://forms.gle/2xvN97e12byjD1di8"
+        # url = "/contact-me"
+      [[languages.es.menu.main]]
+        weight = 2
+        identifier = "linkedin"
+        name = "LinkedIn"
+        url = "https://www.linkedin.com/in/kmxtaylor/?locale=es_ES"
+      [[languages.es.menu.main]]
+        weight = 3
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/kmxtaylor"
+      [[languages.es.menu.main]]
+        weight = 4
+        identifier = "resume"
+        name = "Resumen"
         url = "https://drive.google.com/file/d/1DjwfVl3CO_pM7eBLBx02M2e_TZPtvYYY/view?usp=sharing"
