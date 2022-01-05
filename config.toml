@@ -93,7 +93,7 @@ paginate = 5
         weight = 4
         identifier = "resume"
         name = "Resume"
-        url = "https://drive.google.com/file/d/1DjwfVl3CO_pM7eBLBx02M2e_TZPtvYYY/view?usp=sharing"
+        url = "https://drive.google.com/drive/folders/1vY9XcPnUM6TbOGlCW4wgI5_0iSSk2c9I?usp=sharing"
 
   [languages.es]
     languageName = "Español"
@@ -137,4 +137,4 @@ paginate = 5
         weight = 4
         identifier = "resume"
         name = "Resumen"
-        url = "https://drive.google.com/file/d/1DjwfVl3CO_pM7eBLBx02M2e_TZPtvYYY/view?usp=sharing"
+        url = "https://drive.google.com/drive/folders/1vY9XcPnUM6TbOGlCW4wgI5_0iSSk2c9I?usp=sharing"
