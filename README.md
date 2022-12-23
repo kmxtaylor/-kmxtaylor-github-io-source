@@ -1,1 +1,3 @@
-# kmxtaylor.github.io source code
+# kmxtaylor.github.io
+
+My personal website made with Hugo, based on the theme `terminal`.
