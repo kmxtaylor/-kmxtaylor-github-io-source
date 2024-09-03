@@ -55,7 +55,7 @@ paginate = 5
     languageName = "English"
     weight = 1
     title = "Katie Taylor"
-    subtitle = "Personal website of a student, software developer, language-lover, and dancer"
+    subtitle = "Personal website of a software developer, language-lover, dancer and researcher of life"
     owner = "Katie Taylor"
     keywords = ""
     copyright = ""
@@ -66,7 +66,7 @@ paginate = 5
     olderPosts = "Older posts"
     missingContentMessage = "Page not found..."
     missingBackButtonLabel = "Back to home page"
-    footerText = "Theme based on Terminal by"
+    footerText = "Theme modified from Terminal by"
 
     [languages.en.params.logo]
       logoText = "Katie Taylor"
@@ -75,14 +75,14 @@ paginate = 5
     [languages.en.menu]
       [[languages.en.menu.main]]
         weight = 1
-        identifier = "resume"
-        name = "Resume"
-        url = "https://drive.google.com/drive/folders/1vY9XcPnUM6TbOGlCW4wgI5_0iSSk2c9I?usp=sharing"
-      [[languages.en.menu.main]]
-        weight = 2
-        identifier = "github"
-        name = "GitHub"
-        url = "https://github.com/kmxtaylor"
+        identifier = "home"
+        name = "Home"
+        url = "/"
+      # [[languages.en.menu.main]]
+      #   weight = 2
+      #   identifier = "portfolio"
+      #   name = "Porfolio"
+      #   url = "/portfolio"
       [[languages.en.menu.main]]
         weight = 3
         identifier = "linkedin"
@@ -90,6 +90,16 @@ paginate = 5
         url = "https://www.linkedin.com/in/kmxtaylor/"
       [[languages.en.menu.main]]
         weight = 4
+        identifier = "resume"
+        name = "Resume"
+        url = "https://drive.google.com/drive/folders/1vY9XcPnUM6TbOGlCW4wgI5_0iSSk2c9I?usp=sharing"
+      [[languages.en.menu.main]]
+        weight = 5
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/kmxtaylor"
+      [[languages.en.menu.main]]
+        weight = 6
         identifier = "contact-me"
         name = "Contact Me"
         url = "https://forms.gle/2xvN97e12byjD1di8"
@@ -119,10 +129,9 @@ paginate = 5
     [languages.es.menu]
       [[languages.es.menu.main]]
         weight = 1
-        identifier = "contact-me"
-        name = "Contacto"
-        url = "https://forms.gle/2xvN97e12byjD1di8"
-        # url = "/contact-me"
+        identifier = "home"
+        name = "Inicio"
+        url = "/"
       [[languages.es.menu.main]]
         weight = 2
         identifier = "linkedin"
@@ -130,11 +139,17 @@ paginate = 5
         url = "https://www.linkedin.com/in/kmxtaylor/?locale=es_ES"
       [[languages.es.menu.main]]
         weight = 3
+        identifier = "resume"
+        name = "Resumen"
+        url = "https://drive.google.com/drive/folders/1vY9XcPnUM6TbOGlCW4wgI5_0iSSk2c9I?usp=sharing"
+      [[languages.es.menu.main]]
+        weight = 4
         identifier = "github"
         name = "GitHub"
         url = "https://github.com/kmxtaylor"
       [[languages.es.menu.main]]
-        weight = 4
-        identifier = "resume"
-        name = "Resumen"
-        url = "https://drive.google.com/drive/folders/1vY9XcPnUM6TbOGlCW4wgI5_0iSSk2c9I?usp=sharing"
+        weight = 5
+        identifier = "contact-me"
+        name = "Contacto"
+        url = "https://forms.gle/2xvN97e12byjD1di8"
+        # url = "/contact-me"
