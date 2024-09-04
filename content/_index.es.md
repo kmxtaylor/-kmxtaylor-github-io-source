@@ -1,7 +1,7 @@
 ---
 title: "Inicio"
 date: 2022-01-02T19:54:23-08:00
-cover: "cover.jpg"
+cover: "/img/cover.jpg"
 coverAltText: "Una persona asiatica (Katie) sonríe mientras mira arriba, con peñas musgosas al fondo"
 # framed: true
 draft: false

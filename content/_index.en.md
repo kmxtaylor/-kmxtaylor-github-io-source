@@ -1,7 +1,7 @@
 ---
 title: "Home"
 date: 2022-01-02T19:54:23-08:00
-cover: "cover.jpg"
+cover: "/img/cover.jpg"
 coverAltText: "Young asian person (Katie) smiling while looking upward in front of large mossy rocks"
 # framed: true
 draft: false
