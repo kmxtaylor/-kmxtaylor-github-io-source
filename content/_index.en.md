@@ -7,9 +7,9 @@ coverAltText: "Young asian person (Katie) smiling while looking upward in front 
 draft: false
 ---
 
-<!-- ![Young asian person (Katie) smiling while looking upward in front of large mossy rocks](/img/cover.jpg) -->
+# Hi! I'm Katie Taylor
 
-# Hello, my name is Katie Taylor!
+<!-- ![Young asian person (Katie) smiling while looking upward in front of large mossy rocks](/img/cover.jpg) -->
 
 I'm passionate about creating and supporting human-centered, socially-responsible software solutions! I graduated from Western Washington University (WWU) with my Bachelor of Science in Computer Science and minors in Linguistics, Spanish, German and Honors Interdisciplinary Studies. I also had the wonderful opportunity to study abroad multiple times: in Greece (2019) and in Germany (2022).
 

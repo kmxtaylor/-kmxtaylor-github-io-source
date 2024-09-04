@@ -7,7 +7,7 @@ coverAltText: "Una persona asiatica (Katie) sonríe mientras mira arriba, con pe
 draft: false
 ---
 
-# ¡Hola, me llamo Katie Taylor!
+# ¡Hola! Soy Katie Taylor
 
 <!-- ![Una persona asiatica (Katie) sonríe mientras mira arriba, con peñas musgosas al fondo](/img/cover.jpg) -->
 
