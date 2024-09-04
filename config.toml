@@ -73,11 +73,11 @@ paginate = 5
       logoHomeLink = "/"
 
     [languages.en.menu]
-      # [[languages.en.menu.main]]
-      #   weight = 1
-      #   identifier = "home"
-      #   name = "Home"
-      #   url = "/" # duplicates logoHomeLink
+      [[languages.en.menu.main]]
+        weight = 1
+        identifier = "home"
+        name = "Home"
+        url = "/"
       # [[languages.en.menu.main]]
       #   weight = 2
       #   identifier = "portfolio"
@@ -127,11 +127,11 @@ paginate = 5
       logoHomeLink = "/"
 
     [languages.es.menu]
-      # [[languages.es.menu.main]]
-      #   weight = 1
-      #   identifier = "home"
-      #   name = "Inicio"
-      #   url = "/" # duplicates logoHomeLink
+      [[languages.es.menu.main]]
+        weight = 1
+        identifier = "home"
+        name = "Inicio"
+        url = "/"
       [[languages.es.menu.main]]
         weight = 2
         identifier = "linkedin"
