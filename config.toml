@@ -98,11 +98,11 @@ paginate = 5
         identifier = "github"
         name = "GitHub"
         url = "https://github.com/kmxtaylor"
-      [[languages.en.menu.main]]
-        weight = 6
-        identifier = "contact-me"
-        name = "Contact Me"
-        url = "https://forms.gle/2xvN97e12byjD1di8"
+      # [[languages.en.menu.main]]
+      #   weight = 6
+      #   identifier = "contact-me"
+      #   name = "Contact Me"
+      #   url = "https://forms.gle/2xvN97e12byjD1di8"
         # url = "/contact-me"
 
   [languages.es]
@@ -147,9 +147,9 @@ paginate = 5
         identifier = "github"
         name = "GitHub"
         url = "https://github.com/kmxtaylor"
-      [[languages.es.menu.main]]
-        weight = 5
-        identifier = "contact-me"
-        name = "Contacto"
-        url = "https://forms.gle/2xvN97e12byjD1di8"
+      # [[languages.es.menu.main]]
+      #   weight = 5
+      #   identifier = "contact-me"
+      #   name = "Contacto"
+      #   url = "https://forms.gle/2xvN97e12byjD1di8"
         # url = "/contact-me"
