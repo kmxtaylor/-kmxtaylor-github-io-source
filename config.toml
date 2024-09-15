@@ -52,7 +52,9 @@ paginate = 5
 
 [languages]
   [languages.en]
+    languageCode = "en"
     languageName = "English"
+    # contentDir = "content/en" # alternative structure to translating by file name
     weight = 1
     title = "Katie Taylor"
     subtitle = "Personal website of a software developer, language-lover, dancer and explorer of life"
@@ -106,6 +108,7 @@ paginate = 5
         # url = "/contact-me"
 
   [languages.es]
+    languageCode = "es"
     languageName = "Español"
     weight = 2
     title = "Katie Taylor"
