@@ -2,7 +2,7 @@
 title: "Clock Mobile App"
 leftImgSrc: "/img/clock-mobile-app.png"
 leftImgAlt: "Starry background with text 'good evening, its currently 9:29 PM PDT in Seattle' & a 'More' arrow."
-weight: 2
+weight: 4
 # type: "portfolio"
 # layout: "project"
 draft: false

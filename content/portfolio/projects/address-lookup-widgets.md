@@ -2,7 +2,7 @@
 title: "Address Lookup Widgets"
 leftImgSrc: "/img/census-narrative-profiles-mobile.png"
 leftImgAlt: "Results of searching SPIE's address: 'Census Tract 11.01' & its narrative profile link."
-weight: 4
+weight: 2
 # type: "portfolio"
 # layout: "project"
 draft: false

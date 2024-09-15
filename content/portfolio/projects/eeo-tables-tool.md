@@ -2,7 +2,7 @@
 title: "EEO Tables Tool"
 topImgSrc: "/img/census-eeo-tables-tool.png"
 topImgAlt: "A web data table counting software developers in Washington by sex & race/ethnicity."
-weight: 5
+weight: 3
 # type: "portfolio"
 # layout: "project"
 draft: false
