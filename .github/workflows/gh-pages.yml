@@ -30,3 +30,9 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
+      - name: Setup tmate session # allows for an ssh connection into the runner so you can debug
+        if: success() || failure()
+        uses: mxschmitt/action-tmate@v3
+        timeout-minutes: 5
+      
