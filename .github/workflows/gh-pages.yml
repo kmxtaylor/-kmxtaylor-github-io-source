@@ -21,6 +21,11 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Install npm packages # (e.g. bootstrap)
+        run: |
+          cd themes/terminal/
+          npm i
+          
       - name: Build
         run: hugo --minify
 
