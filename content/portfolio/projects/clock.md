@@ -2,7 +2,7 @@
 title: "Clock Mobile App"
 rightImgSrc: "/img/clock-mobile-app.png"
 rightImgAlt: "Starry background with text 'good evening, its currently 9:29 PM PDT in Seattle' & a 'More' arrow."
-# shrinkImgWidthMd: true # further limit max width of image on md+ screens
+shrinkImgWidthMd: true # further limit max width of image on md+ screens
 weight: 4
 # type: "portfolio"
 # layout: "project"

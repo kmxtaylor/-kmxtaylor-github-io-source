@@ -2,7 +2,7 @@
 title: "Dictionary Mobile App"
 rightImgSrc: "/img/dictionary-mobile-app.png"
 rightImgAlt: "Dictionary result for 'keyboard' with its pronunciation, part of speech: noun & meanings."
-# shrinkImgWidthMd: true # further limit max width of image on md+ screens
+shrinkImgWidthMd: true # further limit max width of image on md+ screens
 weight: 5
 # type: "portfolio"
 # layout: "project"

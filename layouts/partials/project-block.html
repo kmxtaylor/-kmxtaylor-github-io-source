@@ -8,8 +8,12 @@
       alt="{{ .Params.topImgAlt }}"
     >
   {{ else if .Params.rightImgSrc }}
+    {{ $rightImgClass := "rightImg float-md-end mt-3 mb-md-4 ms-md-3" }}
+    {{ if .Params.shrinkImgWidthMd }}
+      {{ $rightImgClass = printf "%s shrinkImgWidthMd" $rightImgClass }}
+    {{ end }}
     <img
-      class="projectrightImg float-md-end mt-3 mb-md-4 ms-md-3" 
+      class={{ $rightImgClass }}
       src="{{ .Params.rightImgSrc }}" 
       alt="{{ .Params.rightImgAlt }}"
     >
