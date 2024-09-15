@@ -7,11 +7,11 @@
       src="{{ .Params.topImgSrc }}" 
       alt="{{ .Params.topImgAlt }}"
     >
-  {{ else if .Params.leftImgSrc }}
+  {{ else if .Params.rightImgSrc }}
     <img
-      class="projectLeftImg float-md-end mt-3 mb-md-4 ms-md-3" 
-      src="{{ .Params.leftImgSrc }}" 
-      alt="{{ .Params.leftImgAlt }}"
+      class="projectrightImg float-md-end mt-3 mb-md-4 ms-md-3" 
+      src="{{ .Params.rightImgSrc }}" 
+      alt="{{ .Params.rightImgAlt }}"
     >
   {{ end }}
   <div class="projectDescription mt-4">

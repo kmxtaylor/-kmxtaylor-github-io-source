@@ -1,7 +1,7 @@
 ---
 title: "SPIE Career Center"
-leftImgSrc: "/img/spie-career-center-mobile.png"
-leftImgAlt: "Search for 'Optical Engineer' filtered by U.S., including an Optical Engineer at Leidos in Alabama."
+rightImgSrc: "/img/spie-career-center-mobile.png"
+rightImgAlt: "Search for 'Optical Engineer' filtered by U.S., including an Optical Engineer at Leidos in Alabama."
 weight: 1
 # type: "portfolio"
 # layout: "project"
