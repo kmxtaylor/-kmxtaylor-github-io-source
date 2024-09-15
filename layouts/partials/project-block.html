@@ -1,6 +1,6 @@
 <!-- Block for project with its title, image and description -->
-<div class="row d-md-block">
-  <h2 class="">{{ .Title }}</h2>
+<div class="row d-md-block mt-4">
+  <h2>{{ .Title }}</h2>
   {{ if .Params.topImgSrc }}
     <img class="projectTopImg mt-3" 
       src="{{ .Params.topImgSrc }}" 
@@ -19,5 +19,5 @@
       | safeHTML 
     }}
   </div>
-  <hr class="mb-0">
+  <hr>
 </div>
