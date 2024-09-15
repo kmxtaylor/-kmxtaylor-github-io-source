@@ -8,7 +8,7 @@
       alt="{{ .Params.topImgAlt }}"
     >
   {{ else if .Params.rightImgSrc }}
-    {{ $rightImgClass := "rightImg float-md-end mt-3 mb-md-4 ms-md-3" }}
+    {{ $rightImgClass := "rightImg" }}
     {{ if .Params.shrinkImgWidthMd }}
       {{ $rightImgClass = printf "%s shrinkImgWidthMd" $rightImgClass }}
     {{ end }}
