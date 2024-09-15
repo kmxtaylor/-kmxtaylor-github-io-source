@@ -2,7 +2,8 @@ baseURL = "https://kmxtaylor.github.io/"
 defaultContentLanguage = "en"
 theme = "terminal"
 
-paginate = 5
+[pagination]
+  paperSize = 5
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -57,22 +58,24 @@ paginate = 5
     # contentDir = "content/en" # alternative structure to translating by file name
     weight = 1
     title = "Katie Taylor"
-    subtitle = "Personal website of a software developer, language-lover, dancer and explorer of life"
-    owner = "Katie Taylor"
-    keywords = ""
-    copyright = ""
-    menuMore = "More menu options"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
-    footerText = "Theme modified from Terminal by"
 
-    [languages.en.params.logo]
-      logoText = "Katie Taylor"
-      logoHomeLink = "/"
+    [languages.en.params]
+      subtitle = "Personal website of a software developer, language-lover, dancer and explorer of life"
+      owner = "Katie Taylor"
+      keywords = ""
+      copyright = ""
+      menuMore = "More menu options"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      footerText = "Theme modified from Terminal by"
+
+      [languages.en.params.logo]
+        logoText = "Katie Taylor"
+        logoHomeLink = "/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -112,22 +115,24 @@ paginate = 5
     languageName = "Español"
     weight = 2
     title = "Katie Taylor"
-    subtitle = "Sitio web personal de una programadora, políglota, bailarina y exploradora de la vida"
-    owner = "Katie Taylor"
-    keywords = ""
-    copyright = ""
-    menuMore = "Ver más opciones"
-    readMore = "Ver menos"
-    readOtherPosts = "Leer más publicaciones"
-    newerPosts = "Publicaciones más recientes"
-    olderPosts = "Publicaciones más viejos"
-    missingContentMessage = "No podría encontrarlo..."
-    missingBackButtonLabel = "Regresar a la página de inicio"
-    footerText = "Diseño basado en Terminal por"
 
-    [languages.es.params.logo]
-      logoText = "Katie Taylor"
-      logoHomeLink = "/es/"
+    [languages.es.params]
+      subtitle = "Sitio web personal de una programadora, políglota, bailarina y exploradora de la vida"
+      owner = "Katie Taylor"
+      keywords = ""
+      copyright = ""
+      menuMore = "Ver más opciones"
+      readMore = "Ver menos"
+      readOtherPosts = "Leer más publicaciones"
+      newerPosts = "Publicaciones más recientes"
+      olderPosts = "Publicaciones más viejos"
+      missingContentMessage = "No podría encontrarlo..."
+      missingBackButtonLabel = "Regresar a la página de inicio"
+      footerText = "Diseño basado en Terminal por"
+
+      [languages.es.params.logo]
+        logoText = "Katie Taylor"
+        logoHomeLink = "/es/"
 
     [languages.es.menu]
       [[languages.es.menu.main]]
