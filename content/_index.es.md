@@ -1,15 +1,13 @@
 ---
 title: "Inicio"
 date: 2022-01-02T19:54:23-08:00
-cover: "/img/cover.jpg" # cover img precedes headings & content
-coverAltText: "Una persona asiatica (Katie) sonríe mientras mira arriba, con peñas musgosas al fondo"
+cover: "/img/katie-taylor.jpg" # cover img precedes headings & content
+coverAltText: "Una persona asiatica (Katie) sonríe mientras mira hacia arriba en un bosque"
 # framed: true
 draft: false
 ---
 
-# ¡Hola! Soy Katie Taylor
-
-<!-- ![Una persona asiatica (Katie) sonríe mientras mira arriba, con peñas musgosas al fondo](/img/cover.jpg) -->
+# ¡Hola! Soy Katie Taylor.
 
 Me apasiona crear y apoyar soluciones de software centradas en el ser humano y socialmente responsables. Me licencié en informática por la Western Washington University (WWU) y completé subconcentraciones en lingüística, español, alemán y estudios interdisciplinarios del Programa de Honors. Tenía también la oportunidad de estudiar en el extranjero: en Grecia (2019) y en Alemania (2022).
 
