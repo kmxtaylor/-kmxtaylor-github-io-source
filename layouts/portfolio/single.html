@@ -15,8 +15,6 @@
       </div>
     {{- end -}}
 
-    <hr>
-
     <!-- Blocks for each project in page bundle  -->
     {{- range .Resources.Match "projects/*.md" -}}
       {{ partial "project-block.html" . }}

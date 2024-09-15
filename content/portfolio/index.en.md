@@ -4,7 +4,7 @@ type: "portfolio"
 draft: false
 ---
 
-Welcome to my portfolio featuring some of my favorite projects!
+Welcome to my portfolio of some of my favorite projects!
 
 <!-- ## Project
 
