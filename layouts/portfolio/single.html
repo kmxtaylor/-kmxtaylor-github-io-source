@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="post">
+  <h1 class="post-title">
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+
+  <div class="post-content">
+    <!-- Content before list of project blocks -->
+    {{- with .Content -}}
+      <div>
+        {{ . 
+          | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` 
+          | safeHTML 
+        }}
+      </div>
+    {{- end -}}
+
+    <hr class="mb-0">
+
+    <!-- Blocks for each project in page bundle  -->
+    {{- range .Resources.Match "projects/*.md" -}}
+      {{ partial "project-block.html" . }}
+    {{- end -}}
+  </div> 
+</article>
+{{ end }}

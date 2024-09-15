@@ -1,0 +1,23 @@
+<!-- Block for project with its title, image and description -->
+<div class="row d-md-block">
+  <h2 class="">{{ .Title }}</h2>
+  {{ if .Params.topImgSrc }}
+    <img class="projectTopImg mt-3" 
+      src="{{ .Params.topImgSrc }}" 
+      alt="{{ .Params.topImgAlt }}"
+    >
+  {{ else if .Params.leftImgSrc }}
+    <img 
+      class="projectLeftImg float-md-end mt-3 mb-md-4 ms-md-3" 
+      src="{{ .Params.leftImgSrc }}" 
+      alt="{{ .Params.leftImgAlt }}"
+    >
+  {{ end }}
+  <div class="projectDescription mt-4">
+    {{ .Content 
+      | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` 
+      | safeHTML 
+    }}
+  </div>
+  <hr class="mb-0">
+</div>
