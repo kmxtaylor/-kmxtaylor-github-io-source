@@ -1,14 +1,14 @@
 <!-- Block for project with its title, image and description -->
-<div class="row d-md-block pt-3">
-  <hr>
-  <h2>{{ .Title }}</h2>
+<div class="row d-md-block">
+  <hr class="mt-2 mt-md-4">
+  <h2 class="mt-2 mt-md-4 mt-lg-5">{{ .Title }}</h2>
   {{ if .Params.topImgSrc }}
     <img class="projectTopImg mt-3" 
       src="{{ .Params.topImgSrc }}" 
       alt="{{ .Params.topImgAlt }}"
     >
   {{ else if .Params.leftImgSrc }}
-    <img 
+    <img
       class="projectLeftImg float-md-end mt-3 mb-md-4 ms-md-3" 
       src="{{ .Params.leftImgSrc }}" 
       alt="{{ .Params.leftImgAlt }}"
